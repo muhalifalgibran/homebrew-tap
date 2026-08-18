@@ -6,23 +6,23 @@ class Pomo < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/muhalifalgibran/pixel-pomodoro/releases/download/v0.2.4/pomo_v0.2.4_darwin_arm64.tar.gz"
-      sha256 "1ae2db56e8b066973261af8ec66d0487d811c3217f5ec6effb7474be883fcd2d"
+      url "https://github.com/muhalifalgibran/pixel-pomodoro/releases/download/v0.3.0/pomo_v0.3.0_darwin_arm64.tar.gz"
+      sha256 "0a59aa1607a574ef64b5d3fc9e5ec1a59ac8996b45371b93b2b4777d24791ff0"
     end
     on_intel do
-      url "https://github.com/muhalifalgibran/pixel-pomodoro/releases/download/v0.2.4/pomo_v0.2.4_darwin_amd64.tar.gz"
-      sha256 "56c6a6b3024548718a0e44ecfbbe4878d213003fb16c8087ac59647ce555401d"
+      url "https://github.com/muhalifalgibran/pixel-pomodoro/releases/download/v0.3.0/pomo_v0.3.0_darwin_amd64.tar.gz"
+      sha256 "b79e26cad6d1a27178cdf62b757deff45f968d7d1393155ec333a7b51284d953"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/muhalifalgibran/pixel-pomodoro/releases/download/v0.2.4/pomo_v0.2.4_linux_arm64.tar.gz"
-      sha256 "e3a19321d55d36968130875243dd9a0b5b1bbaa8fd554b26236fdd187f5f4e9a"
+      url "https://github.com/muhalifalgibran/pixel-pomodoro/releases/download/v0.3.0/pomo_v0.3.0_linux_arm64.tar.gz"
+      sha256 "bbcb96c83c6512e12f8f31e3ae914b15ce8ecfdc8b0688112ea3939ed245663c"
     end
     on_intel do
-      url "https://github.com/muhalifalgibran/pixel-pomodoro/releases/download/v0.2.4/pomo_v0.2.4_linux_amd64.tar.gz"
-      sha256 "8f5a9954d26505272650c30db0920b41755ebbff915d66b728e7828284520da4"
+      url "https://github.com/muhalifalgibran/pixel-pomodoro/releases/download/v0.3.0/pomo_v0.3.0_linux_amd64.tar.gz"
+      sha256 "b16dc292600a7786df59b6fe3b6487f5a1b1de867b93f702a2b97b5d51b090fb"
     end
   end
 
