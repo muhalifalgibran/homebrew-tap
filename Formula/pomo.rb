@@ -2,7 +2,6 @@
 class Pomo < Formula
   desc "Habit tracker for the terminal, driven by a pixel-art pomodoro timer"
   homepage "https://github.com/muhalifalgibran/pixel-pomodoro"
-  version "0.2.4"
   license "MIT"
 
   on_macos do

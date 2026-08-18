@@ -36,7 +36,7 @@ jobs:
           version=${tag#v}
           echo "latest release is $tag"
 
-          if grep -q "version \"$version\"" Formula/pomo.rb 2>/dev/null; then
+          if grep -q "/download/$tag/" Formula/pomo.rb 2>/dev/null; then
             echo "formula is already on $version"
             exit 0
           fi
@@ -61,7 +61,6 @@ jobs:
           class Pomo < Formula
             desc "Habit tracker for the terminal, driven by a pixel-art pomodoro timer"
             homepage "https://github.com/$REPO"
-            version "$version"
             license "MIT"
 
             on_macos do
